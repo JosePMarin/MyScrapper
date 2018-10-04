@@ -17,10 +17,7 @@ class scrapper ():
         self.URL=URL
 
     
-    def GetResponse(self):
-        response=connection.getwithoutAuth(URL)
-        statuscode=connection.statuscode(URL)
-        return response
+
         
         """if statuscode == 200:
             return response
